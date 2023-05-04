@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0069d6 !important;    
+}
+
+.container{
+    margin: 5% auto;
+}
+
+.divider {
+    width:450px;
+    height: 2px;
+    background: #ffa500;
+    margin: 0px auto;
+}
+
+.heading {
+    text-align: center;
+    color: #fff;
+    margin: 25px;
+}
+
+h2 {
+    font-size: 40px !important;
+    font-weight: bold;
+}
+
+#Contact-form {
+    background: #fff;
+    font-size: 20px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+
+/*-------Formulaire------*/
+
+label {
+    color: #050505;
+}
+
+.blue {
+    color: #0069d6;
+}
+
+
+/*------Buttom------*/
+
+.button1 {
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    background: #0069d6;
+    color: #fff;
+    padding: 10px;
+    border: #3050 solid 1px;
+    border-radius: 5px;
+}
+
+.button1:hover {
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    background: #2285ee;
+    color: #010201;
+    padding: 10px;
+    border: #3050 solid 1px;
+    border-radius: 5px;
+}
+
+
+/*------Divider2---------*/
+
+.divider2 {
+    width: 450px;
+    height: 2px;
+    background: #ffa500;
+    margin: 30px auto;
+}
+
+@media (max-width: 576px) {
+    .divider, .divider2{
+        width: 100px;
+    }
+}
